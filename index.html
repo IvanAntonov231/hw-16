@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script defer src="script.js"></script>
+  <title>16</title>
+</head>
+<body>
+  <form action="" id="form">
+    <input value="Git username" type="text" id="nameInput" required placeholder="Git username">
+    <button type="submit" id="submitButton">Find</button>
+    <div class="userInfoDiv"></div>
+  </form>
+
+  <script type="text/template" id="contactTemplate">
+    <div class="userInfoRow">
+      <p>{{repos}}</p>
+      <p>{{followers}}</p>
+      <p>{{following}}</p>
+    </div>
+  </script>
+
+</body>
+</html>
